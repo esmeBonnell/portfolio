@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif
+}
+
+h1 {
+  font-size: 5.62rem;
+  color: #7D61E0;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #9572E0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #9572E0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+}
+
+hr {
+  border: none;
+  border-top: 0.5rem dotted #DBD7FA;
+  width: 5%;
+  position: relative;
+  margin: 6rem auto;
+}
+
+img {}
+
+.profile{
+  margin-top: 50px;
+}
+
+.intro-text{
+  width: 50%;
+  margin: 20px auto 40px;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.engineeringIcon {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.designIcon {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #f4eeff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.profile{
+  height: 400px;
+}
+.contact-me{
+  height: 250px;
+}
+
+.bottom-container {
+  background-color: #f4eeff;
+  padding: 40px;
+  margin: 20px auto;
+}
+
+.footer-link {
+  color: #7D61E0;
+  text-decoration: none;
+  font-weight: bold;
+  margin: auto 20px;
+  line-height: 4rem;
+
+}
+
+
+.myButton {
+	background-color: #9572E0;
+	border-radius:28px;
+	display:inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 16px 31px;
+  margin: 5px auto 15px auto;
+	text-decoration: none;
+}
+.myButton:hover {
+	background-color:#7D61E0;
+  border: 1px solid #66BFBF;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
